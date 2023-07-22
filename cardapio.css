@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh; 
+    color: black;
+    background-color: aliceblue;
+}
+
+.conteudo{
+    height: 100%;
+    margin: auto;
+    max-width: 1000px;
+}
+
+nav{
+    background-color: #C1E1EC;
+    width: 100%;
+    height: 12%;
+}
+
+.nome{
+    width: 50%;
+    margin-top: 25px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.menu{
+    width: 35%;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.menu a:active{
+    color:#82cde6;
+}
+
+header{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+}
+
+.titulo{
+    width: 50%;
+    display: inline-block;
+}
+
+.titulo h1{
+    text-align: center;
+}
+
+.frase{
+    width: 30%;
+    display:inline-block;
+    margin-top: 5%;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.frase p{
+    text-align: center;
+}
+
+section{
+    background-color: white;
+}
+
+.sessao{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.cardapio1{
+    display: flex;
+}
+
+.cardapio2{
+    display: flex;
+}
+
+#panqueca{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+    height: 200px;
+    transition: all 0.3s ease-out;
+}
+
+#banoffe{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+    height: 200px;
+    transition: all 0.3s ease-out;
+}
+
+#chesecake{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+    height: 200px;
+    transition: all 0.3s ease-out;
+}
+
+#fatia-de-bolo{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+    height: 200px;
+    transition: all 0.3s ease-out;
+}
+
+#cupcake{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+    height: 200px;
+    transition: all 0.3s ease-out;
+}
+
+#donalds{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+    height: 200px;
+    transition: all 0.3s ease-out;
+}
+
+#copo-duo{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+    height: 200px;
+    transition: all 0.3s ease-out;
+}
+
+#macaron{
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 150px;
+    height: 200px;
+    transition: all 0.3s ease-out;
+}
+
+.padrao-escrita{
+    width: 100%;
+    height: 50%;
+}
+
+.imagem-padrao{
+    width: 100%;
+    height: 50%;
+}
+
+.retangulo{
+    margin: auto;
+    font-size: 15px;
+    width: 80px;
+    height: 25px;
+    background-color: #C1E1EC;
+}
+
+footer{
+    height: 12%;
+    width: 100%;
+    background-color: #C1E1EC;
+}
+
+.logo{
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo a:hover{
+    cursor: pointer;
+    background-color: #82cde6;
+}
