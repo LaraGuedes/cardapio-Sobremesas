@@ -109,7 +109,7 @@ section{
     padding: 30px;
     margin: 20px;
     width: 150px;
-    height: 200px;
+    height: 300px;
     transition: all 0.3s ease-out;
 }
 
@@ -119,7 +119,7 @@ section{
     padding: 30px;
     margin: 20px;
     width: 150px;
-    height: 200px;
+    height: 300px;
     transition: all 0.3s ease-out;
 }
 
@@ -129,7 +129,7 @@ section{
     padding: 30px;
     margin: 20px;
     width: 150px;
-    height: 200px;
+    height: 300px;
     transition: all 0.3s ease-out;
 }
 
@@ -139,7 +139,7 @@ section{
     padding: 30px;
     margin: 20px;
     width: 150px;
-    height: 200px;
+    height: 300px;
     transition: all 0.3s ease-out;
 }
 
@@ -149,7 +149,7 @@ section{
     padding: 30px;
     margin: 20px;
     width: 150px;
-    height: 200px;
+    height: 300px;
     transition: all 0.3s ease-out;
 }
 
@@ -159,7 +159,7 @@ section{
     padding: 30px;
     margin: 20px;
     width: 150px;
-    height: 200px;
+    height: 300px;
     transition: all 0.3s ease-out;
 }
 
@@ -169,7 +169,7 @@ section{
     padding: 30px;
     margin: 20px;
     width: 150px;
-    height: 200px;
+    height: 300px;
     transition: all 0.3s ease-out;
 }
 
@@ -179,18 +179,18 @@ section{
     padding: 30px;
     margin: 20px;
     width: 150px;
-    height: 200px;
+    height: 300px;
     transition: all 0.3s ease-out;
 }
 
 .padrao-escrita{
     width: 100%;
-    height: 50%;
+    height: 30%;
 }
 
 .imagem-padrao{
     width: 100%;
-    height: 50%;
+    height: 30%;
 }
 
 .retangulo{
