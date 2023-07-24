@@ -53,10 +53,6 @@ a{
     cursor: pointer;
 }
 
-.menu a:active{
-    color:#82cde6;
-}
-
 header{
     height: 30%;
     width: 100%;

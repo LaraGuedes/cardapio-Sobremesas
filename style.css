@@ -53,10 +53,6 @@ a{
     cursor: pointer;
 }
 
-.menu a:active{
-    color:#82cde6;
-}
-
 header{
     height: 60%;
     width: 100%;
@@ -72,28 +68,59 @@ section{
     margin: auto;
     text-align: center;
     width: 40%;
+    height: 50%;
 }
 
 .cardapio{
-    display: flex;
+    width: 100%;
+    height: 20%;
 }
 
 .formatar-cardapio{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.formartar-texto{
+    width: 100%;
+    height: 5%;
+    margin-left: 90%;
+}
+
+.formartar-texto a:hover{
+    font-size: 15px;
+    cursor: pointer;
+    color: #82cde6;
 }
 
 .imagem-cardapio{
+    display: flex;    
     border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
-    margin: 20px;
-    width: 150px;
-    height: 150px;
-    transition: all 0.3s ease-out;
+    margin: 20px;   
+    width:30%;
+    height: 30%;
+    object-fit: contain;
+    object-position: center;
 }
 
 footer{
     height: 12%;
     width: 100%;
     background-color: #C1E1EC;
+}
+
+.logo{
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo a:hover{
+    cursor: pointer;
+    background-color: #82cde6;
 }
