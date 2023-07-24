@@ -88,6 +88,11 @@ section{
     margin-left: 5%;
 }
 
+#contato-email a:hover{
+    color: #8dcfe6;
+    cursor: pointer;
+}
+
 #contato-email p{
     text-align: center;
     font-size: 20px;
@@ -100,11 +105,41 @@ section{
     display: flex;
 }
 
+#contato-wttp a{
+    margin-top: 0.5%;
+    margin-left: 5%;
+}
+
+#contato-wttp a:hover{
+    cursor: pointer;
+    color: #8dcfe6;
+}
+
+#contato-wttp p{
+    text-align: center;
+    font-size: 20px;
+}
+
 #contato-ifood{
     width: 100%;
     margin-top: 3%;
     margin-left: 10%;
     display: flex;
+}
+
+#contato-ifood a{
+    margin-top: 0.5%;
+    margin-left: 5%;
+}
+
+#contato-ifood a:hover{
+    color: #8dcfe6;
+    cursor: pointer;
+}
+
+#contato-ifood p{
+    text-align: center;
+    font-size: 20px;
 }
 
 .localizacao{
@@ -130,6 +165,11 @@ section{
     margin: auto;
 }
 
+#localizacao-icon img:hover{
+    cursor: pointer;
+    background-color: #8dcfe6;
+}
+
 #localizacao-maps{
     justify-content: center;
     align-items: center;
@@ -143,4 +183,9 @@ footer{
     height: 12%;
     width: 100%;
     background-color: #C1E1EC;
+}
+
+footer p{
+    text-align: center;
+    font-size: 20px;
 }
