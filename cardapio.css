@@ -21,7 +21,7 @@ nav{
     display: flex;
     background-color: #C1E1EC;
     width: 100%;
-    height: 12%;
+    height: 15%;
 }
 
 .nome{
@@ -96,85 +96,8 @@ section{
     justify-content: center;
 }
 
-.cardapio1{
-    display: flex;
-}
-
-.cardapio2{
-    display: flex;
-}
-
-#panqueca{
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 150px;
-    height: 300px;
-    transition: all 0.3s ease-out;
-}
-
-#banoffe{
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 150px;
-    height: 300px;
-    transition: all 0.3s ease-out;
-}
-
-#chesecake{
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 150px;
-    height: 300px;
-    transition: all 0.3s ease-out;
-}
-
-#fatia-de-bolo{
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 150px;
-    height: 300px;
-    transition: all 0.3s ease-out;
-}
-
-#cupcake{
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 150px;
-    height: 300px;
-    transition: all 0.3s ease-out;
-}
-
-#donalds{
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 150px;
-    height: 300px;
-    transition: all 0.3s ease-out;
-}
-
-#copo-duo{
-    border-radius: 5px;
-    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
-    padding: 30px;
-    margin: 20px;
-    width: 150px;
-    height: 300px;
-    transition: all 0.3s ease-out;
-}
-
-#macaron{
+.card{
+    display: inline-block;
     border-radius: 5px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
@@ -204,7 +127,7 @@ section{
 
 footer{
     margin: auto;
-    height: 20%;
+    height: 25%;
     width: 100%;
     background-color: #C1E1EC;
 }
@@ -230,4 +153,10 @@ footer{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1000px){
+    nav h2,ul{
+        display: none;
+    }
 }
