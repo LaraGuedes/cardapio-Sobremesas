@@ -18,22 +18,27 @@ body{
 }
 
 nav{
+    display: flex;
     background-color: #C1E1EC;
     width: 100%;
     height: 12%;
 }
 
 .nome{
-    width: 50%;
-    margin-top: 25px;
+    width: 40%;
+    margin-top: 35px;
     margin-left: 50px;
-    display: inline-block;
+}
+
+.imagem{
+    width: 10%;
+    margin-left: 0;
 }
 
 .menu{
     width: 35%;
-    display: inline-block;
-    margin-left: 80px;
+    margin-top: 35px;
+    margin-left: 110px;
 }
 
 .menu li{
@@ -198,13 +203,15 @@ section{
 }
 
 footer{
-    height: 12%;
+    margin: auto;
+    height: 20%;
     width: 100%;
     background-color: #C1E1EC;
 }
 
 .logo{
-    height: 100%;
+    width: 100%;
+    height: 10%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -214,4 +221,13 @@ footer{
 .logo a:hover{
     cursor: pointer;
     background-color: #82cde6;
+}
+
+.footer-texto{
+    height: 10%;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
